@@ -1,0 +1,278 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;800&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+    /* fonts  */
+    @font-face {
+        font-family: "Raleway-regular";
+        src: url(../fonts/Raleway-Regular.ttf)
+    }
+
+    @font-face {
+        font-family: "Raleway-medium";
+        src: url(../fonts/Raleway-Medium.ttf)
+    }
+
+    @font-face {
+        font-family: "Raleway-bold";
+        src: url(../fonts/Raleway-Bold.ttf)
+    }
+
+    @font-face {
+        font-family: "Raleway-extrabold";
+        src: url(../fonts/Raleway-ExtraBold.ttf)
+    }
+
+    @font-face {
+        font-family: "Raleway-semibold";
+        src: url(../fonts/Raleway-SemiBold.ttf)
+    }
+
+    @font-face {
+        font-family: "Raleway-black";
+        src: url(../fonts/Raleway-Black.ttf)
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'MontSerrat', sans-serif;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 7rem;
+        height: 6rem;
+        margin-right: 6rem;
+        margin-left: 2rem;
+    }
+
+    body {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        text-decoration: none;
+        padding-left: 0px;
+        display: flex;
+        line-height: 80px;
+        opacity: 0.7;
+        z-index: 99;
+        transition: 0.4s;
+        position: fixed;
+    }
+
+    .navbarI a {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        vertical-align: top;
+        margin-left: 60px;
+        margin-top: 10rem;
+        height: 80px;
+        line-height: 120px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .navbarI a:hover {
+        background-color: #2582ce;
+
+    }
+
+    .slides {
+        display: none;
+        height: 100vh;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .slideshow {
+        max-width: 3000px;
+        position: relative;
+        height: 100vh;
+        margin-top: -4.7rem;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .2
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .2
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+    .search{
+        bottom: 15rem;
+        left:30rem;
+        position: relative;
+    }
+    .search #topic{
+        margin-left: -5px;
+        border:0px;
+    }
+    #subject{
+        padding:1.2rem 5rem 1.2rem 5rem;
+        border:0px;
+        border-radius: 2rem 0rem 0rem 2rem;
+    }
+    #topic{
+        padding:1.2rem 5rem 1.2rem 5rem;
+        
+    }
+    .search button {
+    position: absolute;
+    height:3.5rem;
+    width:10rem;
+    border: 0px;
+    background-color: green;
+    border-radius: 0px 2rem 2rem 0rem;
+}
+.search button:hover {
+    background-color: antiquewhite;
+    opacity: 1;
+    transition: 0.9s ;
+}
+ button i{
+    padding-right: 1rem;
+}
+button b{
+height: 4rem;
+width: 2rem;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img class="logo" src="{% static 'images/trip.png'%}">
+            <div class="navbarI">
+                <b><a href="#">Home</a></b>
+                <b><a href="#">Destination</a></b>
+                <b><a href="#">Images</a></b>
+                <b><a href="#">Contact Us</a></b>
+                <b><a href="#">Blog</a></b>
+
+            </div>
+        </div>
+
+        <div class="slideshow">
+            <div class="slides">
+                <img src="{% static 'images/air.jpg'%}" width="100%" height="720">
+            </div>
+            <div class="slides">
+                <img src="{% static 'images/bungee.jpg'%}" width="100%" height="720">
+            </div>
+            <div class="slides">
+                <img src="{% static 'images/wall.jpg'%}" width="100%" height="720">
+            </div>
+            <div class="slides">
+                <img src="{% static 'images/PPP.jpg'%}" width="100%" height="720">
+            </div>
+            <div class="slides">
+                <img src="{% static 'images/climb.jpg'%}" width="100%" height="720">
+            </div>
+            <div class="slides">
+                <img src="{% static 'images/cycling.jpg'%}" width="100%" height="720">
+            </div>
+            <!--  --> <div class="circle"style="text-align:center">
+                <span class="circlei"></span> 
+                <span class="circlei"></span> 
+                <span class="circlei"></span>
+                <span class="circlei"></span>
+                <span class="circlei"></span>
+                <span class="circlei"></span>
+              </div>
+                <div class="search">
+                <form name="form1" id="form1" action="/action_page.php">
+                 <select name="subject" id="subject">
+                    <option value="" selected="selected">Destination</option>
+                    <option>Pokhara</option>
+                    <option>Kushma</option>
+                  </select>
+                  <select name="topic" id="topic">
+                    <option value="" selected="selected">Activities</option>
+                    <option>Bangee</option>
+                    <option>Rafting</option>
+                    <option>Trekking</option>
+                    <option>Wall climbing</option>
+                  </select>
+                  <button type="submit"><i class="fa fa-search" ></i><b>Search</b></button>
+                 </form> 
+                </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            var circlei = document.getElementsByClassName("circlei");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < circlei.length; i++) {
+                circlei[i].className = circlei[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            circlei[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+
+</body>
+
+</html>
