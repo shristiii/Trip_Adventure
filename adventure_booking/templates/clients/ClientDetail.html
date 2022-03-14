@@ -1,0 +1,24 @@
+{% if objects == null%}
+<form method="POST">
+{% csrf_token %}
+	first name:<input type="text" name="first_name"></br>
+	last name<input type="text"  name="last_name"></br>
+	phone number<input type="text" name="phone_number"></br>
+	company name<input type="text"  name="company_name"></br>
+	location<input type="text" name="location"></br>
+	<input type="submit"/>
+</form>
+{% else%}
+{% for object in objects%}
+<h1>{{object.first_name}}</h1>
+<form method="POST">
+{% csrf_token %}
+first name:<input type="text" value="{{object.first_name}}" name="first_name"></br>
+	last name<input type="text" value="{{object.last_name}}" name="last_name"></br>
+	phone number<input type="text"value="{{object.phone_number}}"  name="phone_number"></br>
+	company name<input type="text"  value="{{object.company_name}}" name="company_name"></br>
+	location<input type="text"value="{{object.location}}"  name="location"></br>
+	<input type="submit"/>
+</form>
+{% endfor%}
+{% endif %}
