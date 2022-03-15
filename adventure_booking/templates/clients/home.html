@@ -1,0 +1,18 @@
+{% if objects != null%}
+{% for object in objects%}
+	{{object.trip_name}}
+	{{object.trip_desc}}
+	{{object.price}}
+	<a href="/client/trip/{{object.user}}/{{object.id}}">edit</a>
+	<a href="/client/trip_delete/{{object.user}}/{{object.id}}">delete</a>
+</br>
+{% endfor %}
+{% endif %}
+</br>
+<h1>
+Home
+</h1>
+<a href="{% url 'Client_Detail'%}">Client Detail</a></br>
+<a href="{% url 'trip'%}">add_trip</a></br>
+<a href="{% url 'view_booking'%}">view booking</a></br>
+<a href="{% url 'logout' %}">Logout</a>

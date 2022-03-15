@@ -1,0 +1,14 @@
+
+{% load static %}
+{% if objects != null%}
+{% for object in objects%}
+	{{object.title}}
+	{% autoescape off %}
+	{{object.content}}
+{% endautoescape %}
+	{{object.slug}}
+	<img src="/media/{{object.image}}" height="200px" width="200px">
+</br>
+</br>
+{% endfor %}
+{% endif %}
