@@ -1,0 +1,12 @@
+{% if objects != null%}
+{% for object in objects%}
+	{{object.trip_name}}
+	{{object.trip_desc}}
+	{{object.price}}
+	<a href="/user/booking/{{object.user}}">Book Now</a>
+</br>
+{% endfor %}
+{% endif %}
+<a href="/user/blog_add">add blog</a><br>
+<a href="/user/view_blog">{{request.user}} blogs</a><br>
+<a href="/user/all_blog">blogs</a>

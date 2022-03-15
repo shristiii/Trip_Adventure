@@ -1,0 +1,19 @@
+{% load static %}
+{% if objects != null%}
+{% for object in objects%}
+	{{object.title}}
+	{% autoescape off %}
+	{{object.content}}
+{% endautoescape %}
+	{{object.slug}}
+	{{object.image}}
+	<img src="/media/{{object.image}}" height="200px" width="200px">
+	<a href="/user/blog_edit/{{object.user}}/{{object.id}}">edit</a>
+	<a href="/user/blog_delete/{{object.user}}/{{object.id}}">delete</a>
+</br>
+</br>
+</br>
+</br>
+</br>
+{% endfor %}
+{% endif %}
