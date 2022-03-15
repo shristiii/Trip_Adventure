@@ -1,0 +1,196 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'poppins', sans-serif;
+        
+      }
+  
+      .nav {
+        width: 100%;
+        background-color: #83acf1;
+        opacity: .8;
+      }
+  
+      .nav img {
+        height: 5rem;
+        width: 8rem;
+        padding-left: 2rem;
+      }
+  
+      .btn {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 100px;
+        width: 100px;
+        color: black;
+        text-align: right;
+        padding-right: 2rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        /* transition:right 0.4s ease; */
+      }
+  
+      .btn.click {
+        right: 0px;
+        position: fixed;
+        z-index: 3;
+      }
+  
+      .btn span {
+        color: black;
+        font-size: 28px;
+        line-height: 45px;
+      }
+  
+      .btn.click span:before {
+        content: '\f00d';
+      }
+  
+      .sidebar {
+        position: fixed;
+        width: 350px;
+        height: 100%;
+        right: -350px;
+        background: #83acf1;
+        bottom: 7rem;
+        top: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 2;
+        opacity:.9;
+        /* transition: right 0.4s ease; */
+      }
+  
+      .sidebar.show {
+        right: 0px;
+      }
+  
+      nav ul {
+        background: #83acf1;
+        width: 100%;
+        height: 50%;
+        list-style: none;
+        margin-top: 5rem;
+      }
+  
+      nav ul li {
+        line-height: 60px;
+        border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+      }
+  
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 90px;
+        font-weight: 400;
+        display: block;
+        line-height: 4rem;
+        width: 100%;
+        border-left: 3px solid transparent; 
+    
+      }
+  
+      nav ul li a:hover {
+        color: rgb(38, 163, 163);
+        border-left-color: rgb(38, 163, 163);
+        border-left-width: 4px;
+      }
+      .img-container {
+      text-align: center;
+  margin: 24px 0 12px 0;
+    }
+    .img-container img{
+      border-radius: 50%;
+      width:40%;
+    }
+    .img-contain img{
+        height: 80vh;
+        width:80%;
+        margin-top: 2rem;
+        margin-left: 9.5rem;
+    }
+    .description {
+       margin:3rem 3rem 3rem 8rem; 
+    }
+    .description h3{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    .description p{
+        width:95%;
+        line-height: 1.8rem;
+    }
+    .img-description{
+      width:90%;
+      margin-left: 3rem;
+    }
+    .description button{
+      padding:.5rem 1rem .5rem 1rem;
+      background-color: #83acf1;
+      border:0px solid white;
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+      </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+          <img class="logo" src="{% static 'images/trip.png'%}">
+        </div>
+        <div class="btn ">
+          <span class="fas fa-bars"></span>
+        </div>
+        <nav class="sidebar">
+          <div class="text">
+            <div class="img-container">
+              <img src="{% static 'images/loginimg.png' %}">
+              <h1>XYZ company</h1>
+              <h4>NayaBazar</h4>
+            </div>
+            <ul>
+              <li><a href="#"><b>Dashboard</b></a></li>
+              <li><a href="#"><b>Add Detail</b></a></li>
+              <li><a href="#"><b>Booking</b></a></li>
+              <li><a href="#"><b>Change Password</b></a></li>
+              <li><a href="#"><b>Logout</b></a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="img-description">
+            <div class="img-contain">
+                <img src="{% static 'images/everest-base-camp.jpg'%}">
+            </div>
+            <div class="description">
+                <h1>Everest Base Camp Trek</h1>
+                <h3>Overview</h3>
+                <p>Everest Base Camp Trek, also known as EBC Trek, is high on the bucket list of things to do for any of the adventurers around the globe. The hike to Everest Base Camp allows you to see a magnificent close-up view of Mount Everest, the highest peak in the world, from every angle. And this is always a dream for travel lovers and a rare feat that comes once in a lifetime.
+                The 14-day Everest Base Camp Trek demands not only a sheer amount of determination but also a high caliber of fortune. The hike to Base Camp showcases the extreme beauty of a mixture of well-organized trails along with the raw, rugged side of the mountainside. That is why very few people get the chance to trek to the Everest region to experience the high-altitude wind and snow. So, grab this opportunity and book our 14-day trek to EBC. Besides, the EBC trek also allows you to see the great Mt. Everest right in front of your very eyes and tell others the tale.</p>
+                <h3>Hikking Choices for Everest Base Camp</h3>
+                <p>Travel with us for the best experience and the perfect opportunity to make your dream come true. Enjoy the fresh cold breeze dripping from the tallest peak in the world as it comes true in this very life with the Everest base camp trek. If you want to up-the-stake more than the ultimate journey, you can opt for the amazing Mt. Everest Expedition or the Heli tour up to or from the base camp itself. It is really easy to plan and customize the expedition according to your budget, length of stay, and choice.
+
+                    Throughout the globe, Everest base camp is the most popular trekking destination among extreme adventure seekers. You have multiple choices of trekking routes. The choices differ according to your length of stay, plan for adventure, and determination. You can either hike along a traditional route that leads directly to the base camp and is shorter. However, it is the most crowded route where you can meet several fellow trekkers and tourists on the route. So this route is relatively safer.
+                    
+                    The other side trips that connect with the base camp are less explored. It offers new, raw experiences. But these side trips are confusing. You may get entirely lost because of the several interchanging trails that are long and challenging. However, the end products are far more beneficial. The EBC trek is of high caliber, with extraordinarily rare views of the landscapes, mountains, and hills.
+                    
+                    We will take a 14-day trekking route to Everest, which is safer and more adventurous, too. On top of all that, you can join a group tour of Everest Base Camp. Instead, you can also take a private hike to the base camp. We allow both ways of hiking to the Everest Base Camp. We also have a luxury lodge trip in case you want to opt for a 5-star hotel stay during EBC Trek. Plus, if you are under the constraint of time and want a helicopter tour above the mountains, you can choose to trek to the Everest Base Camp and fly back from Everest to Kathmandu in a helicopter.</p>
+                  <button>Edit</button> <button>Delete</button>
+                  </div>
+        </div>
+        </div>
+        <script>
+            $('.btn').click(function () {
+              $(this).toggleClass("click");
+              $('.sidebar').toggleClass("show");
+            });
+          </script>
+</body>
+</html>

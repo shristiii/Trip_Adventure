@@ -13,3 +13,9 @@ def clientform_page(request):
     return render(request,"clientform.html")
 def booking_page(request):
     return render(request,"Booking.html")
+def Description_page(request):
+    return render(request,"Description.html")
+def password_page(request):
+    return render(request,"Password.html")
+def userlogin_page(request):
+    return render(request,"userlogin.html")
