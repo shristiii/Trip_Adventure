@@ -1,0 +1,168 @@
+
+{% extends 'static/usermain.html'%}
+{% block content %}
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color:black;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* fonts  */
+@font-face {
+  font-family:"Raleway-regular";
+  src:url(../fonts/Raleway-Regular.ttf)
+}
+@font-face {
+  font-family:"Raleway-medium";
+  src:url(../fonts/Raleway-Medium.ttf)
+}
+@font-face {
+  font-family:"Raleway-bold";
+  src:url(../fonts/Raleway-Bold.ttf)
+}
+@font-face {
+  font-family:"Raleway-extrabold";
+  src:url(../fonts/Raleway-ExtraBold.ttf)
+}
+@font-face {
+  font-family:"Raleway-semibold";
+  src:url(../fonts/Raleway-SemiBold.ttf)
+}
+@font-face {
+  font-family:"Raleway-black";
+  src:url(../fonts/Raleway-Black.ttf)
+}
+
+body {
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+
+}
+  .rightcolumn {
+    float: right;
+    margin-right: 60rem;
+    width: 30%;
+    padding-right: 50px;
+    margin-bottom:-8rem;
+  }
+
+  .img1 {
+    margin-bottom:.5rem;
+    width: 100%;
+    padding: 20px;
+  }
+  .forms {
+    width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  div.elem-group {
+    margin: 20px 0;
+
+  }
+
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+
+  }
+
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    font-weight:bold;
+    color:  rgb(24, 22, 136);
+  }
+
+  input, select, textarea {
+    border-radius: 5px;
+    border: 1px solid grey ;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  } textarea { height: 250px;
+  }
+
+  hr {
+    border: 1px dotted black;
+  }
+
+  button {
+    margin-top:5px;
+    background: indigo;
+    border: 0;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    text-decoration:none;
+  }
+
+  button:hover {
+    border: 2px solid;
+  }
+
+</style>
+</head>
+<body>
+
+      <div class="rightcolumn" style="padding-top:7rem;">
+        <div class="forms">
+{% if objects == null%}
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+{{form.media}}
+{{form.as_p}}
+            <button type="submit">Submit</button>
+            </div>
+            </div>
+          </div>
+          </form>
+{% endif %}
+
+        </body>
+        </html>
+
+
+{% endblock%}

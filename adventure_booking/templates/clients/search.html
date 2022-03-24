@@ -1,0 +1,182 @@
+
+
+
+{% extends 'static/main.html'%}
+{% block content %}
+{%load static%}
+<head>
+  <style>
+    .cart {
+      margin: 5rem 0rem 0rem 8rem;
+      width: 28rem;
+    }
+
+    .cart img {
+      height: 18rem;
+      width: 28rem;
+    }
+
+    .cart p {
+      font-family: 'poppins', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: gray;
+    }
+
+    .cart h3 {
+      font-family: 'poppins', sans-serif;
+      font-size: 2rem;
+      color: white;
+    }
+
+    .cart h4 {
+      font-family: 'poppins', sans-serif;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .detail {
+      display: flex;
+      justify-content: space-around;
+      margin-top: -.5rem;
+      padding: 1rem 0rem 1rem 0rem;
+      background: black;
+    }
+
+    .ribbon span {
+      margin: 50rem 0rem 0rem 8rem;
+      font-size: 15px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 20px;
+      transform: rotate(-45deg);
+      width: 100px;
+      display: block;
+      background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+      box-shadow: 0px 3px 10px -5px rgb(0 0 0);
+      position: absolute;
+      top: 19px;
+      left: -21px;
+    }
+
+    .cart-detail {
+      margin-bottom:3rem;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .description {
+      height:16rem;
+      margin: 8rem 0rem 0rem 4rem;
+      line-height: 2rem;
+      overflow:hidden;
+        overflow:ellipsis;
+    }
+
+    .description h2 {
+      font-family: 'poppins', sans-serif;
+    }
+
+    .description p {
+      font-family: 'poppins', sans-serif;
+      margin-right: 25rem;
+      text-align:justify;
+      max-height:10rem;
+      max-width:45rem;
+      display:block;
+      margin-left:0rem;
+      padding:0;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+
+    button {
+      font-family: 'poppins', sans-serif;
+      margin-top: 1rem;
+      padding:2px;
+      margin-left:3rem;
+      padding: .8rem .5rem .8rem .5rem;
+      background: #79A70A;
+      border-radius: 1rem 1rem 1rem 1rem;
+      border: 0px;
+    }
+     a {
+    text-decoration:none;
+      color:inherit;
+  }
+
+    .img-container {
+      text-align: center;
+  margin: 24px 0 12px 0;
+    }
+    .img-container img{
+      border-radius: 50%;
+      width:40%;
+    }
+    .coverpage img{
+     width:100%;
+     height: 95vh;
+     margin-top: -5rem;
+    }
+    .coverpage h3{
+     font-weight: 400;
+     position: absolute;
+  bottom: 100px;
+  left: 60px;
+  color:white;
+  font-size: 80px;
+    }
+.search{
+	position:relative;
+	top:100px;
+	left:100px;
+	align:center;
+}
+  </style>
+</head>
+
+<body>
+</br>
+	<form method="get" enctype="multipart/form-data" action='/client/client_search'>
+<div class="input-group">
+  <div class="form-outline">
+    <input type="search" id="query" name="query" class="form-control" />
+  </div>
+  <button type="submit">Search
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+{% if offers != null%}
+{% for offer in offers%}
+    <div class="cart-detail">
+      <div class="cart">
+        <img src="/media/{{offer.image}}">
+        <div class="detail">
+          <div class="price-detail">
+            <p>Price:</p>
+            <h3>{{offer.price}}</h3>
+          </div>
+          <div class="duration">
+            <p>Duration</p>
+            <h4>{{offer.duration}} Days</h4>
+          </div>
+        </div>
+              </div>
+              <div>
+      <div class="description">
+        <h2>{{offer.trip_name}}</h2>
+        <p>		{% autoescape off %}
+{{offer.trip_desc}}</p>
+{% endautoescape %}
+      </div>
+<button><a href="/client/more_detail/{{offer_object.user}}/{{offer_object.id}}">More Details</a></button>
+      </div>
+      </div>
+{% endfor %}
+{% endif %}
+ </body>
+
+</html>
+{% endblock%}
