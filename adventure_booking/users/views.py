@@ -10,25 +10,34 @@ from django.http import HttpResponse
 from client.models import ClientBooking,ClientOffer
 from .models import UserBlog
 from .forms import BlogForm
+from django.core.files.storage import FileSystemStorage
+from django.contrib import messages
 
 
 # Create your views here.
 
 def user_home(request):
-    objects = ClientOffer.objects.all()
+    objects = ClientOffer.objects.all().order_by('-id')
     context = {'objects':objects}
     return render(request , "users/home.html",context)
 
 
-def booking(request,user=None):
+def booking(request,user=None,pk=None):
+    objects = ClientOffer.objects.filter(user=user,id=pk)
+    print(objects[0].user)
+    context = {'objects':objects}
     if request.method == 'POST':
+        user = objects[0].user
+        package_name = objects[0].trip_name
         full_name = request.POST["full_name"]
         email = request.POST["email"]
         phone_number = request.POST["phone_number"]
-        arrival_date = request.POST["arrival_date"]
-        add_booking = ClientBooking(user=user,full_name=full_name,email=email,phone_number=phone_number,arrival_date=arrival_date)
+        no_of_person = request.POST["no_of_person"]
+        arraival_date = request.POST["arraival_date"]
+        add_booking = ClientBooking(user=user,package_name=package_name,full_name=full_name,email=email,phone_number=phone_number,no_of_person=no_of_person,arraival_date=arraival_date)
         add_booking.save()
-    return render(request , "users/booking_page.html")
+        messages.success(request, 'Your Booking has been recorded.')
+    return render(request , "users/booking_page.html",context)
 
 
 
@@ -43,7 +52,7 @@ def register_page(request):
             user = form.cleaned_data.get('username')
             messages.success(request,'Account was created for'+user)
     context = {'form':form}
-    return render(request , "admin/register.html", context)
+    return render(request , "users/register.html", context)
 
 
 
@@ -61,7 +70,7 @@ def login_page(request):
             return redirect('user_home')
         else:
             messages.info(request, 'Username and password incorrect')
-    return render(request , "clients/login.html")
+    return render(request , "users/login.html")
 
 
 
@@ -69,7 +78,7 @@ def login_page(request):
 
 def logout_page(request):
     logout(request)
-    return redirect('login')
+    return redirect('user_home')
 
 
 @login_required(login_url='login')
@@ -93,10 +102,15 @@ def blog_edit(request,user=None,pk=None):
 def blog_add(request):
     context = {'form':BlogForm}
     if request.method == 'POST':
-        form = BlogForm(request.POST, request.FILES)
-        if form.is_valid():
-            form.save()
-            return redirect('view_blog')
+        title = request.POST['title']
+        content = request.POST['content']
+        user = request.user
+        image = request.FILES['image']
+        fs = FileSystemStorage()
+        filename = fs.save(image.name,image)
+        add_detail = UserBlog(user=user,title=title,content=content,image=image)
+        add_detail.save()
+        return redirect('view_blog')
     return render(request , "users/blog_add.html",context)
 
 @login_required(login_url='login')
@@ -110,12 +124,25 @@ def blog_delete(request,user=None,pk=None):
 
 
 def view_blog(request):
-    objects = UserBlog.objects.filter(user=request.user)
-    context = {'objects':objects}
-    return render(request , "users/blog_page.html",context)
+    if request.user.is_authenticated:
+        objects = UserBlog.objects.filter(user=request.user).order_by('-id')
+        context = {'objects':objects}
+        return render(request , "users/blog_page.html",context)
+    else:
+        return redirect('/user/login')
 
 
 def view_all_blog(request):
-    objects = UserBlog.objects.all()
+    objects = UserBlog.objects.all().order_by('-id')
     context = {'objects':objects}
     return render(request , "users/all_blog_page.html",context)
+
+def view_offer(request):
+    objects = ClientOffer.objects.all().order_by('-id')
+    context = {'objects':objects}
+    return render(request , "users/offer.html",context)
+
+def more_detail(request,user=None,pk=None):
+    objects = ClientOffer.objects.filter(user=user,id=pk)
+    context={'objects':objects}
+    return render(request , "users/more_detail.html",context)

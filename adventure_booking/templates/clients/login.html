@@ -1,11 +1,126 @@
-<h1>Login</h1>
 
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<head>
+  <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+     body{
+    font-family: 'poppins',sans-serif;
+    background-image: url("{% static 'images/fly.jpg'%}");
+
+    overflow: hidden;
+    height:80vh;
+}
+.container{
+    width:400px;
+    margin:7% auto;
+    border-radius:25px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 17px #333;
+    height:32rem;
+}
+.header{
+    text-align: center;
+    padding-top: 25px;
+}
+.header h1{
+    color:#333;
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+.main{
+    text-align: center;
+}
+.main input, button{
+    width:300px;
+    height:40px;
+    border:none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color:#333;
+    margin-bottom: 40px;
+}
+.main button{
+    padding-left: 0;
+    background-color: #83acf1;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.main button:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #7799d4;
+}
+.main input:hover{
+    box-shadow: 2px 2px 5px #555;
+    background-color: #ddd;
+}
+.main span{
+    position: relative;
+}
+.main i{
+    position: absolute;
+    left:15px;
+    color: #333;
+    font-size: 16px;
+    top:2px;
+}
+span.psw {
+  float: right;
+  /* padding-top: 10px; */
+  margin-right:7.5rem;
+}
+
+span.psw a{
+  text-decoration: none;
+  color: black;
+}
+    /* Change styles for span and cancel button on extra small screens */
+
+  a {
+    text-decoration:none;
+      color:inherit;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <h1>login</h1>
+    </div>
+    <div class="main">
 <form action="" method="POST">
 	{% csrf_token %}
-	Username:<input type="text" name="username"/></br>
-	Password:<input type="password" name="password"/></br>
-	<input type="submit">
-	{% for message in messages%}
-		<h1>{{message}}</h1>
-	{% endfor %}
-</form>
+            <span>
+                <i class="fa fa-user"> </i>
+                <input type="text" placeholder="Username" name="username">
+            </span><br>
+            <span>
+                <i class="fa fa-lock" ></i>
+                <input type="password" placeholder="password" name="password">
+            </span><br>
+            <button type="submit">login</button>
+            <span class="psw">Forget <a href="#">password?</a></span>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
+
+<!-- <form action="" method="POST"> -->
+<!-- 	{% csrf_token %} -->
+<!-- 	Username:<input type="text" name="username"/></br> -->
+<!-- 	Password:<input type="password" name="password"/></br> -->
+<!-- 	<input type="submit"> -->
+<!-- 	{% for message in messages%} -->
+<!-- 		<h1>{{message}}</h1> -->
+<!-- 	{% endfor %} -->
+<!-- </form> -->

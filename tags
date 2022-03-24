@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sabin/project/real_time/Trip_Adventure/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+*	BLOG FORM/style.css	/^   * {$/;"	s
+*	BLOG FORM/style.css	/^*{$/;"	s
+*	TRIP ADVENTURES/style.css	/^*{$/;"	s
+.card	BLOG FORM/style.css	/^  .card {$/;"	c
+.cards	TRIP ADVENTURES/style.css	/^.cards{$/;"	c
+.cards button	TRIP ADVENTURES/style.css	/^.cards button{$/;"	s
+.cards button:hover	TRIP ADVENTURES/style.css	/^.cards button:hover{$/;"	s
+.cards:hover	TRIP ADVENTURES/style.css	/^.cards:hover{$/;"	c
+.container	TRIP ADVENTURES/style.css	/^.container{$/;"	c
+.des	TRIP ADVENTURES/style.css	/^.des{$/;"	c
+.fade	TRIP ADVENTURES/style.css	/^.fade {$/;"	c
+.image img	TRIP ADVENTURES/style.css	/^.image img{$/;"	s
+.img	BLOG FORM/style.css	/^  .img {$/;"	c
+.img1	BLOG FORM/style.css	/^  .img1 {$/;"	c
+.img2	BLOG FORM/style.css	/^  .img2 {$/;"	c
+.img3	BLOG FORM/style.css	/^  .img3 {$/;"	c
+.leftcolumn	BLOG FORM/style.css	/^    .leftcolumn, .rightcolumn {   $/;"	c
+.leftcolumn	BLOG FORM/style.css	/^  .leftcolumn {   $/;"	c
+.logo	BLOG FORM/style.css	/^  .logo {$/;"	c
+.logo	TRIP ADVENTURES/style.css	/^  .logo {$/;"	c
+.main	BLOG FORM/style.css	/^.main{$/;"	c
+.main	TRIP ADVENTURES/style.css	/^.main{$/;"	c
+.navbar	BLOG FORM/style.css	/^.navbar {$/;"	c
+.navbar	TRIP ADVENTURES/style.css	/^.navbar {$/;"	c
+.navbarI a	BLOG FORM/style.css	/^  .navbarI a{$/;"	s
+.navbarI a	TRIP ADVENTURES/style.css	/^  .navbarI a{$/;"	s
+.navbarI a:hover	BLOG FORM/style.css	/^   .navbarI a:hover {$/;"	s
+.navbarI a:hover	TRIP ADVENTURES/style.css	/^   .navbarI a:hover {$/;"	s
+.rightcolumn	BLOG FORM/style.css	/^    .leftcolumn, .rightcolumn {   $/;"	c
+.rightcolumn	BLOG FORM/style.css	/^  .rightcolumn {$/;"	c
+.rotate1	BLOG FORM/style.css	/^  .rotate1{$/;"	c
+.rotate1	TRIP ADVENTURES/style.css	/^.rotate1{$/;"	c
+.rotate1:after	BLOG FORM/style.css	/^  .rotate1:after{$/;"	c
+.rotate1:after	TRIP ADVENTURES/style.css	/^.rotate1:after{$/;"	c
+.rotate1:before	BLOG FORM/style.css	/^  .rotate1:before{$/;"	c
+.rotate1:before	TRIP ADVENTURES/style.css	/^.rotate1:before{$/;"	c
+.rotate2	BLOG FORM/style.css	/^  .rotate2{$/;"	c
+.rotate2	TRIP ADVENTURES/style.css	/^.rotate2{$/;"	c
+.rotate2:after	BLOG FORM/style.css	/^  .rotate2:after{$/;"	c
+.rotate2:after	TRIP ADVENTURES/style.css	/^.rotate2:after{$/;"	c
+.rotate2:before	BLOG FORM/style.css	/^  .rotate2:before{$/;"	c
+.rotate2:before	TRIP ADVENTURES/style.css	/^.rotate2:before{$/;"	c
+.rotate3	BLOG FORM/style.css	/^  .rotate3{$/;"	c
+.rotate3	TRIP ADVENTURES/style.css	/^.rotate3{$/;"	c
+.rotate3:after	BLOG FORM/style.css	/^  .rotate3:after{$/;"	c
+.rotate3:after	TRIP ADVENTURES/style.css	/^.rotate3:after{$/;"	c
+.rotate3:before	BLOG FORM/style.css	/^  .rotate3:before{$/;"	c
+.rotate3:before	TRIP ADVENTURES/style.css	/^.rotate3:before{$/;"	c
+.rotate4	TRIP ADVENTURES/style.css	/^.rotate4{$/;"	c
+.rotate4:after	TRIP ADVENTURES/style.css	/^.rotate4:after{$/;"	c
+.rotate4:before	TRIP ADVENTURES/style.css	/^.rotate4:before{$/;"	c
+.row:after	BLOG FORM/style.css	/^  .row:after {$/;"	c
+.search	BLOG FORM/style.css	/^   .search {$/;"	c
+.search button	BLOG FORM/style.css	/^.search button {$/;"	s
+.search input	BLOG FORM/style.css	/^.search input {$/;"	s
+.section-heading	TRIP ADVENTURES/style.css	/^.section-heading{$/;"	c
+.section-heading:after	TRIP ADVENTURES/style.css	/^.section-heading:after{$/;"	c
+.slides	TRIP ADVENTURES/style.css	/^.slides {$/;"	c
+.slideshow	TRIP ADVENTURES/style.css	/^.slideshow {$/;"	c
+.social-links	BLOG FORM/style.css	/^  .social-links{$/;"	c
+.social-links	TRIP ADVENTURES/style.css	/^.social-links{$/;"	c
+.social-links img	BLOG FORM/style.css	/^  .social-links img{$/;"	s
+.social-links img	TRIP ADVENTURES/style.css	/^.social-links img{$/;"	s
+.title	TRIP ADVENTURES/style.css	/^.title{$/;"	c
+ALLOWED_HOSTS	adventure_booking/adventure_booking/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	adventure_booking/adventure_booking/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+About us	TRIP ADVENTURES/index.html	/^                      <h3>About us<\/h3>$/;"	j
+Add Packages	Realtimeproject/templates/clientform.html	/^          <h3>Add Packages<\/h3>$/;"	j
+Annapurna Trek	Realtimeproject/templates/client.html	/^        <h2>Annapurna Trek<\/h2>$/;"	i
+BASE_DIR	adventure_booking/adventure_booking/settings.py	/^BASE_DIR = Path(__file__).resolve().parent.parent$/;"	v
+BlogForm	adventure_booking/users/forms.py	/^class BlogForm(ModelForm):$/;"	c
+Bungee-Jump	TRIP ADVENTURES/index.html	/^               <h1>Bungee-Jump<\/h1>$/;"	h
+Change Password	Realtimeproject/templates/Password.html	/^         <h2>Change Password<\/h2>$/;"	i
+ClientBooking	adventure_booking/client/models.py	/^class ClientBooking(models.Model):$/;"	c
+ClientConfig	adventure_booking/client/apps.py	/^class ClientConfig(AppConfig):$/;"	c
+ClientDetail	adventure_booking/client/models.py	/^class ClientDetail(models.Model):$/;"	c
+ClientDetailForm	adventure_booking/client/forms.py	/^class ClientDetailForm(ModelForm):$/;"	c
+ClientOffer	adventure_booking/client/models.py	/^class ClientOffer(models.Model):$/;"	c
+Client_Detail	adventure_booking/client/views.py	/^def Client_Detail(request):$/;"	f
+Complete Guide to Visit Lukla, Nepal	BLOG FORM/index.html	/^                    <h2>Complete Guide to Visit Lukla, Nepal<\/h2> <br>$/;"	i
+CreateUserForm	adventure_booking/client/forms.py	/^class CreateUserForm(UserCreationForm):$/;"	c
+DATABASES	adventure_booking/adventure_booking/settings.py	/^DATABASES = {$/;"	v
+DEBUG	adventure_booking/adventure_booking/settings.py	/^DEBUG = True$/;"	v
+DEFAULT_AUTO_FIELD	adventure_booking/adventure_booking/settings.py	/^DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'$/;"	v
+Description_page	Realtimeproject/myapp/views.py	/^def Description_page(request):$/;"	f
+Everest Base Camp Trek	Realtimeproject/templates/Description.html	/^                <h1>Everest Base Camp Trek<\/h1>$/;"	h
+Everest-base-camp Trek	Realtimeproject/templates/client.html	/^        <h2>Everest-base-camp Trek<\/h2>$/;"	i
+FILE_SAVE_PATH	adventure_booking/adventure_booking/settings.py	/^FILE_SAVE_PATH = os.path.join(BASE_DIR,"media") + "\/froala_editor\/images"$/;"	v
+FRAOLA_EDITOR_THIRD_PARTY	adventure_booking/adventure_booking/settings.py	/^FRAOLA_EDITOR_THIRD_PARTY = ('image_aviary', 'spell_checker')$/;"	v
+FROALA_EDITOR_PLUGINS	adventure_booking/adventure_booking/settings.py	/^FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'dra/;"	v
+Follow Us	BLOG FORM/index.html	/^                    <h3>Follow Us<\/h3>$/;"	j
+Follow Us	TRIP ADVENTURES/index.html	/^                      <h3>Follow Us<\/h3>$/;"	j
+FreshMeal	BLOG FORM/icons/logo-2.svg	/^    <text id="FreshMeal" transform="translate(377 398)" fill="#232b38" font-size="26" font-famil/;"	i
+FreshMeal	TRIP ADVENTURES/icons/logo-2.svg	/^    <text id="FreshMeal" transform="translate(377 398)" fill="#232b38" font-size="26" font-famil/;"	i
+Group_1	BLOG FORM/icons/logo-2.svg	/^  <g id="Group_1" data-name="Group 1" transform="translate(-377 -372)">$/;"	i
+Group_1	BLOG FORM/icons/transport.svg	/^    <g id="Group_1" data-name="Group 1">$/;"	i
+Group_1	TRIP ADVENTURES/icons/logo-2.svg	/^  <g id="Group_1" data-name="Group 1" transform="translate(-377 -372)">$/;"	i
+Group_1	TRIP ADVENTURES/icons/transport.svg	/^    <g id="Group_1" data-name="Group 1">$/;"	i
+Hikking Choices for Everest Base Camp	Realtimeproject/templates/Description.html	/^                <h3>Hikking Choices for Everest Base Camp<\/h3>$/;"	j
+Home	adventure_booking/templates/clients/home.html	/^<\/h1>$/;"	h
+How Do I Plan For The Everest Base Camp Trek?	BLOG FORM/index.html	/^                    <h2>How Do I Plan For The Everest Base Camp Trek?<\/h2> <br>$/;"	i
+INSTALLED_APPS	adventure_booking/adventure_booking/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	adventure_booking/adventure_booking/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+Layer_4	BLOG FORM/icons/logo-2.svg	/^    <image id="Layer_4" data-name="Layer 4" width="18" height="17" transform="translate(406 372)/;"	i
+Layer_4	TRIP ADVENTURES/icons/logo-2.svg	/^    <image id="Layer_4" data-name="Layer 4" width="18" height="17" transform="translate(406 372)/;"	i
+Login	adventure_booking/templates/clients/login.html	/^<h1>Login<\/h1>$/;"	h
+MEDIA_ROOT	adventure_booking/adventure_booking/settings.py	/^MEDIA_ROOT=os.path.join(BASE_DIR,"media")$/;"	v
+MEDIA_URL	adventure_booking/adventure_booking/settings.py	/^MEDIA_URL="\/media\/"$/;"	v
+MIDDLEWARE	adventure_booking/adventure_booking/settings.py	/^MIDDLEWARE = [$/;"	v
+Mardi Trek	Realtimeproject/templates/client.html	/^          <h2>Mardi Trek<\/h2>$/;"	i
+Meta	adventure_booking/client/forms.py	/^    class Meta:$/;"	c	class:CreateUserForm
+Meta	adventure_booking/users/forms.py	/^     class Meta:$/;"	c	class:BlogForm
+Migration	adventure_booking/client/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0002_clientoffer.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0003_remove_clientoffer_user_clientoffer_user.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0004_alter_clientoffer_user_clientbooking.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0005_alter_clientbooking_user_alter_clientoffer_user.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0006_alter_clientbooking_arrival_date.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/client/migrations/0007_rename_first_name_clientdetail_email_and_more.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/users/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/users/migrations/0002_alter_userblog_image_alter_userblog_slug.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/users/migrations/0003_alter_userblog_image.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/users/migrations/0004_alter_userblog_image.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	adventure_booking/users/migrations/0005_alter_userblog_image.py	/^class Migration(migrations.Migration):$/;"	c
+Overview	Realtimeproject/templates/Description.html	/^                <h3>Overview<\/h3>$/;"	j
+Packages	Realtimeproject/templates/client.html	/^      <h3>Packages<\/h3>$/;"	j
+Paragliding	TRIP ADVENTURES/index.html	/^           <h1>Paragliding<\/h1>$/;"	h
+Popular	TRIP ADVENTURES/index.html	/^              <h1 class="section-heading">Popular<\/h1>$/;"	h
+Popular Post	BLOG FORM/index.html	/^                    <h3>Popular Post<\/h3>$/;"	j
+Pumdikot View Tower and Shiva Statue – New Attractions in Pokhara	BLOG FORM/index.html	/^                    <h2>Pumdikot View Tower and Shiva Statue – New Attractions in Pokhara<\/h2/;"	i
+Quick Links	TRIP ADVENTURES/index.html	/^                      <h3>Quick Links<\/h3>$/;"	j
+ROOT_URLCONF	adventure_booking/adventure_booking/settings.py	/^ROOT_URLCONF = 'adventure_booking.urls'$/;"	v
+Register	Realtimeproject/templates/registration.html	/^        <h1>Register<\/h1>$/;"	h
+Register	adventure_booking/templates/admin/register.html	/^<h1>Register<\/h1>$/;"	h
+Rock climbing	TRIP ADVENTURES/index.html	/^        <h1>Rock climbing<\/h1>$/;"	h
+SECRET_KEY	adventure_booking/adventure_booking/settings.py	/^SECRET_KEY = 'django-insecure-o^(d@bwyly*9o&q3jmlciaxe64qk^#@hw5r6i#&c&_8pz+2(wj'$/;"	v
+STATICFILES_DIRS	adventure_booking/adventure_booking/settings.py	/^STATICFILES_DIRS=(os.path.join(BASE_DIR,"static"),)$/;"	v
+STATIC_URL	adventure_booking/adventure_booking/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	adventure_booking/adventure_booking/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	adventure_booking/adventure_booking/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USD 910	Realtimeproject/templates/client.html	/^              <h3>USD 910<\/h3>$/;"	j
+USD 910	Realtimeproject/templates/client.html	/^            <h3>USD 910<\/h3>$/;"	j
+USE_I18N	adventure_booking/adventure_booking/settings.py	/^USE_I18N = True$/;"	v
+USE_TZ	adventure_booking/adventure_booking/settings.py	/^USE_TZ = True$/;"	v
+Ultra-Light Aircraft	TRIP ADVENTURES/index.html	/^                <h1>Ultra-Light Aircraft<\/h1>$/;"	h
+UserBlog	adventure_booking/users/models.py	/^class UserBlog(models.Model):$/;"	c
+UsersConfig	adventure_booking/users/apps.py	/^class UsersConfig(AppConfig):$/;"	c
+WSGI_APPLICATION	adventure_booking/adventure_booking/settings.py	/^WSGI_APPLICATION = 'adventure_booking.wsgi.application'$/;"	v
+XYZ company	Realtimeproject/templates/Booking.html	/^              <h1>XYZ company<\/h1>$/;"	h
+XYZ company	Realtimeproject/templates/Description.html	/^              <h1>XYZ company<\/h1>$/;"	h
+XYZ company	Realtimeproject/templates/Password.html	/^              <h1>XYZ company<\/h1>$/;"	h
+XYZ company	Realtimeproject/templates/client.html	/^          <h1>XYZ company<\/h1>$/;"	h
+XYZ company	Realtimeproject/templates/clientform.html	/^              <h1>XYZ company<\/h1>$/;"	h
+_	BLOG FORM/icons/bag-2.svg	/^    <path id="_" data-name="" d="M498.988,4630.013a4.248,4.248,0,0,1-.725.631c-1.21.819-2.428/;"	i
+_	BLOG FORM/icons/bag.svg	/^    <path id="_" data-name=" " d="M955.713,2348.717v-2.143h8.57v2.143Zm-5.892,0H948.75a3.765,/;"	i
+_	BLOG FORM/icons/cart-2.svg	/^  <path id="_" data-name="" d="M898.5,1326a1,1,0,1,0-1,1A1,1,0,0,0,898.5,1326Zm7,0a1,1,0,1,0-/;"	i
+_	BLOG FORM/icons/cart-dark.svg	/^  <path id="_" data-name="" d="M1414,30a1,1,0,1,0-1,1A1,1,0,0,0,1414,30Zm7,0a1,1,0,1,0-1,1A1,/;"	i
+_	BLOG FORM/icons/cart.svg	/^  <path id="_" data-name="" d="M1414,30a1,1,0,1,0-1,1A1,1,0,0,0,1414,30Zm7,0a1,1,0,1,0-1,1A1,/;"	i
+_	BLOG FORM/icons/clock-2.svg	/^    <path id="_" data-name="" d="M493.506,4694.69a.265.265,0,0,0-.268-.268H492.7a.265.265,0,0/;"	i
+_	BLOG FORM/icons/clock.svg	/^  <path id="_" data-name="" d="M1310,94.395a.529.529,0,0,0-.536-.535h-1.071a.529.529,0,0,0-.5/;"	i
+_	BLOG FORM/icons/edit.svg	/^  <path id="_" data-name="" d="M1271.937,28.25h-.437V27.5h-.75v-.437l.906-.906,1.188,1.187Zm3/;"	i
+_	BLOG FORM/icons/email.svg	/^    <path id="_" data-name="" d="M498.988,4630.013a4.248,4.248,0,0,1-.725.631c-1.21.819-2.428/;"	i
+_	BLOG FORM/icons/location.svg	/^    <text id="_" data-name="" stroke-linejoin="round" fill="#232b38" stroke="#eebf00" transfo/;"	i
+_	BLOG FORM/icons/next.svg	/^  <path id="_" data-name="" d="M1594.065,1148.575a.384.384,0,0,0-.112-.256l-5.2-5.2a.35.35,0,/;"	i
+_	BLOG FORM/icons/phone-2.svg	/^    <path id="_" data-name="" d="M497.795,4569.521a.429.429,0,0,0-.025-.176c-.059-.176-.469-./;"	i
+_	BLOG FORM/icons/phone.svg	/^  <path id="_" data-name="" d="M398.568,107.045a.855.855,0,0,0-.05-.352c-.117-.351-.937-.72-1/;"	i
+_	BLOG FORM/icons/pre.svg	/^  <path id="_" data-name="" d="M333.422,1143.935a.363.363,0,0,0-.112-.257l-.558-.557a.351.351/;"	i
+_	BLOG FORM/icons/transport.svg	/^    <path id="_" data-name=" " d="M554.713,2365.857a2.143,2.143,0,1,1-2.143-2.143A2.158,2.158/;"	i
+_	BLOG FORM/icons/usd.svg	/^    <path id="_" data-name=" " d="M1376.371,2357.125c0-4.034-3.482-5.39-6.562-6.579-2.377-.92/;"	i
+_	BLOG FORM/icons/user-icon.svg	/^  <path id="_" data-name="" d="M1183,28.976c0-1.766-.414-4.476-2.7-4.476a4.145,4.145,0,0,1-5./;"	i
+_	TRIP ADVENTURES/icons/bag-2.svg	/^    <path id="_" data-name="" d="M498.988,4630.013a4.248,4.248,0,0,1-.725.631c-1.21.819-2.428/;"	i
+_	TRIP ADVENTURES/icons/bag.svg	/^    <path id="_" data-name=" " d="M955.713,2348.717v-2.143h8.57v2.143Zm-5.892,0H948.75a3.765,/;"	i
+_	TRIP ADVENTURES/icons/cart-2.svg	/^  <path id="_" data-name="" d="M898.5,1326a1,1,0,1,0-1,1A1,1,0,0,0,898.5,1326Zm7,0a1,1,0,1,0-/;"	i
+_	TRIP ADVENTURES/icons/cart-dark.svg	/^  <path id="_" data-name="" d="M1414,30a1,1,0,1,0-1,1A1,1,0,0,0,1414,30Zm7,0a1,1,0,1,0-1,1A1,/;"	i
+_	TRIP ADVENTURES/icons/cart.svg	/^  <path id="_" data-name="" d="M1414,30a1,1,0,1,0-1,1A1,1,0,0,0,1414,30Zm7,0a1,1,0,1,0-1,1A1,/;"	i
+_	TRIP ADVENTURES/icons/clock-2.svg	/^    <path id="_" data-name="" d="M493.506,4694.69a.265.265,0,0,0-.268-.268H492.7a.265.265,0,0/;"	i
+_	TRIP ADVENTURES/icons/clock.svg	/^  <path id="_" data-name="" d="M1310,94.395a.529.529,0,0,0-.536-.535h-1.071a.529.529,0,0,0-.5/;"	i
+_	TRIP ADVENTURES/icons/edit.svg	/^  <path id="_" data-name="" d="M1271.937,28.25h-.437V27.5h-.75v-.437l.906-.906,1.188,1.187Zm3/;"	i
+_	TRIP ADVENTURES/icons/email.svg	/^    <path id="_" data-name="" d="M498.988,4630.013a4.248,4.248,0,0,1-.725.631c-1.21.819-2.428/;"	i
+_	TRIP ADVENTURES/icons/location.svg	/^    <text id="_" data-name="" stroke-linejoin="round" fill="#232b38" stroke="#eebf00" transfo/;"	i
+_	TRIP ADVENTURES/icons/next.svg	/^  <path id="_" data-name="" d="M1594.065,1148.575a.384.384,0,0,0-.112-.256l-5.2-5.2a.35.35,0,/;"	i
+_	TRIP ADVENTURES/icons/phone-2.svg	/^    <path id="_" data-name="" d="M497.795,4569.521a.429.429,0,0,0-.025-.176c-.059-.176-.469-./;"	i
+_	TRIP ADVENTURES/icons/phone.svg	/^  <path id="_" data-name="" d="M398.568,107.045a.855.855,0,0,0-.05-.352c-.117-.351-.937-.72-1/;"	i
+_	TRIP ADVENTURES/icons/pre.svg	/^  <path id="_" data-name="" d="M333.422,1143.935a.363.363,0,0,0-.112-.257l-.558-.557a.351.351/;"	i
+_	TRIP ADVENTURES/icons/transport.svg	/^    <path id="_" data-name=" " d="M554.713,2365.857a2.143,2.143,0,1,1-2.143-2.143A2.158,2.158/;"	i
+_	TRIP ADVENTURES/icons/usd.svg	/^    <path id="_" data-name=" " d="M1376.371,2357.125c0-4.034-3.482-5.39-6.562-6.579-2.377-.92/;"	i
+_	TRIP ADVENTURES/icons/user-icon.svg	/^  <path id="_" data-name="" d="M1183,28.976c0-1.766-.414-4.476-2.7-4.476a4.145,4.145,0,0,1-5./;"	i
+_01	BLOG FORM/icons/start-filled.svg	/^  <path id="_01" data-name="01" d="M928,1258.367l2.307,4.168,4.693.9-3.267,3.475.593,4.723L928,1/;"	i
+_01	TRIP ADVENTURES/icons/start-filled.svg	/^  <path id="_01" data-name="01" d="M928,1258.367l2.307,4.168,4.693.9-3.267,3.475.593,4.723L928,1/;"	i
+_05	BLOG FORM/icons/star-grey.svg	/^  <path id="_05" data-name="05" d="M993,1258.367l2.307,4.168,4.693.9-3.267,3.475.593,4.723L993,1/;"	i
+_05	TRIP ADVENTURES/icons/star-grey.svg	/^  <path id="_05" data-name="05" d="M993,1258.367l2.307,4.168,4.693.9-3.267,3.475.593,4.723L993,1/;"	i
+__str__	adventure_booking/client/models.py	/^    def __str__(self):$/;"	m	class:ClientBooking
+__str__	adventure_booking/client/models.py	/^    def __str__(self):$/;"	m	class:ClientDetail
+__str__	adventure_booking/client/models.py	/^    def __str__(self):$/;"	m	class:ClientOffer
+__str__	adventure_booking/users/models.py	/^    def __str__(self):$/;"	m	class:UserBlog
+allowed_users	adventure_booking/client/decorators.py	/^def allowed_users(allowed_roles=[]):$/;"	f
+application	adventure_booking/adventure_booking/asgi.py	/^application = get_asgi_application()$/;"	v
+application	adventure_booking/adventure_booking/wsgi.py	/^application = get_wsgi_application()$/;"	v
+arrival_date	adventure_booking/client/models.py	/^    arrival_date = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+bg	BLOG FORM/icons/bag-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/bag.svg	/^    <g id="bg" fill="#eebf00" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/clock-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/email.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/phone-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/transport.svg	/^      <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	BLOG FORM/icons/usd.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/bag-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/bag.svg	/^    <g id="bg" fill="#eebf00" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/clock-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/email.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/phone-2.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/transport.svg	/^      <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+bg	TRIP ADVENTURES/icons/usd.svg	/^    <g id="bg" fill="#fff" stroke-linejoin="round">$/;"	i
+blog_add	adventure_booking/users/views.py	/^def blog_add(request):$/;"	f
+blog_delete	adventure_booking/users/views.py	/^def blog_delete(request,user=None,pk=None):$/;"	f
+blog_edit	adventure_booking/users/views.py	/^def blog_edit(request,user=None,pk=None):$/;"	f
+body	BLOG FORM/style.css	/^  body {$/;"	s
+body	BLOG FORM/style.css	/^body {$/;"	s
+body	TRIP ADVENTURES/style.css	/^body {$/;"	s
+booking	adventure_booking/users/views.py	/^def booking(request,user=None):$/;"	f
+booking_delete	adventure_booking/client/views.py	/^def booking_delete(request,user,pk):$/;"	f
+booking_edit	adventure_booking/client/views.py	/^def booking_edit(request,user=None,pk=None):$/;"	f
+booking_page	Realtimeproject/myapp/views.py	/^def booking_page(request):$/;"	f
+client_home	adventure_booking/client/views.py	/^def client_home(request):$/;"	f
+client_page	Realtimeproject/myapp/views.py	/^def client_page(request):$/;"	f
+clientform_page	Realtimeproject/myapp/views.py	/^def clientform_page(request):$/;"	f
+company_name	adventure_booking/client/models.py	/^    company_name = models.CharField(max_length=200,null=True)$/;"	v	class:ClientDetail
+content	adventure_booking/users/models.py	/^    content = FroalaField()$/;"	v	class:UserBlog
+created_at	adventure_booking/users/models.py	/^    created_at = models.DateTimeField(auto_now_add=True)$/;"	v	class:UserBlog
+decorator	adventure_booking/client/decorators.py	/^    def decorator(view_func):$/;"	f	function:allowed_users	file:
+default_auto_field	adventure_booking/client/apps.py	/^    default_auto_field = 'django.db.models.BigAutoField'$/;"	v	class:ClientConfig
+default_auto_field	adventure_booking/users/apps.py	/^    default_auto_field = 'django.db.models.BigAutoField'$/;"	v	class:UsersConfig
+dependencies	adventure_booking/client/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0002_clientoffer.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0003_remove_clientoffer_user_clientoffer_user.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0004_alter_clientoffer_user_clientbooking.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0005_alter_clientbooking_user_alter_clientoffer_user.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0006_alter_clientbooking_arrival_date.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/client/migrations/0007_rename_first_name_clientdetail_email_and_more.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/users/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/users/migrations/0002_alter_userblog_image_alter_userblog_slug.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/users/migrations/0003_alter_userblog_image.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/users/migrations/0004_alter_userblog_image.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	adventure_booking/users/migrations/0005_alter_userblog_image.py	/^    dependencies = [$/;"	v	class:Migration
+email	adventure_booking/client/models.py	/^    email = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+email	adventure_booking/client/models.py	/^    email = models.CharField(max_length=200,null=True)$/;"	v	class:ClientDetail
+facebook	BLOG FORM/icons/facebook.svg	/^  <path id="facebook" d="M380.066,21.79V20.6c0-.62.059-.955.947-.955H382.2V17.267h-1.9c-2.287,0-/;"	i
+facebook	TRIP ADVENTURES/icons/facebook.svg	/^  <path id="facebook" d="M380.066,21.79V20.6c0-.62.059-.955.947-.955H382.2V17.267h-1.9c-2.287,0-/;"	i
+fields	adventure_booking/client/forms.py	/^        fields = "__all__"$/;"	v	class:ClientDetailForm.meta
+fields	adventure_booking/client/forms.py	/^        fields = ['username','email','password1','password2']$/;"	v	class:CreateUserForm.Meta
+fields	adventure_booking/users/forms.py	/^         fields = "__all__"$/;"	v	class:BlogForm.Meta
+footer	TRIP ADVENTURES/style.css	/^footer{$/;"	s
+footer .box	TRIP ADVENTURES/style.css	/^footer .box{$/;"	c
+footer .box h3	TRIP ADVENTURES/style.css	/^footer .box h3{$/;"	s
+footer .box p	TRIP ADVENTURES/style.css	/^footer .box p{$/;"	s
+footer .box ul	TRIP ADVENTURES/style.css	/^footer .box ul{$/;"	s
+footer .box ul li	TRIP ADVENTURES/style.css	/^footer .box ul li{$/;"	s
+footer .box ul li a	TRIP ADVENTURES/style.css	/^footer .box ul li a{$/;"	s
+footer .box ul li a:hover	TRIP ADVENTURES/style.css	/^footer .box ul li a:hover{$/;"	s
+footer .box:nth-child(3)	TRIP ADVENTURES/style.css	/^footer .box:nth-child(3){$/;"	c
+footer .box:nth-child(3) > div	TRIP ADVENTURES/style.css	/^footer .box:nth-child(3) > div{$/;"	s
+footer .box:nth-child(3) > div img	TRIP ADVENTURES/style.css	/^footer .box:nth-child(3) > div img{$/;"	s
+footer .box:nth-child(3) h3	TRIP ADVENTURES/style.css	/^footer .box:nth-child(3) h3{$/;"	s
+footer .box:nth-child(3) ul li	TRIP ADVENTURES/style.css	/^footer .box:nth-child(3) ul li{$/;"	s
+footer .container	TRIP ADVENTURES/style.css	/^footer .container{$/;"	c
+footer.copyright	TRIP ADVENTURES/style.css	/^footer.copyright{$/;"	c
+footer.copyright a	TRIP ADVENTURES/style.css	/^footer.copyright a{$/;"	s
+form1	Realtimeproject/templates/index.html	/^                <form name="form1" id="form1" action="\/action_page.php">$/;"	I
+full_name	adventure_booking/client/models.py	/^    full_name = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+google	BLOG FORM/icons/google.svg	/^  <path id="google" d="M438.374,29.405c0,1.466-1.391,1.969-2.639,1.969-1.34,0-3.15-.62-3.15-2.22/;"	i
+google	TRIP ADVENTURES/icons/google.svg	/^  <path id="google" d="M438.374,29.405c0,1.466-1.391,1.969-2.639,1.969-1.34,0-3.15-.62-3.15-2.22/;"	i
+home_page	Realtimeproject/myapp/views.py	/^def home_page(request):$/;"	f
+hr	BLOG FORM/icons/hr.svg	/^  <image id="hr" width="349" height="26" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAANSUhE/;"	i
+hr	TRIP ADVENTURES/icons/hr.svg	/^  <image id="hr" width="349" height="26" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAANSUhE/;"	i
+icon	BLOG FORM/icons/bag.svg	/^  <g id="icon" transform="translate(-914.645 -2312.643)">$/;"	i
+icon	BLOG FORM/icons/transport.svg	/^  <g id="icon" transform="translate(-514.645 -2312.643)">$/;"	i
+icon	BLOG FORM/icons/usd.svg	/^  <g id="icon" transform="translate(-1322.645 -2306.643)">$/;"	i
+icon	TRIP ADVENTURES/icons/bag.svg	/^  <g id="icon" transform="translate(-914.645 -2312.643)">$/;"	i
+icon	TRIP ADVENTURES/icons/transport.svg	/^  <g id="icon" transform="translate(-514.645 -2312.643)">$/;"	i
+icon	TRIP ADVENTURES/icons/usd.svg	/^  <g id="icon" transform="translate(-1322.645 -2306.643)">$/;"	i
+image	adventure_booking/users/models.py	/^    image = models.ImageField(upload_to="blog\/", null = True)$/;"	v	class:UserBlog
+initial	adventure_booking/client/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial	adventure_booking/users/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+instagram	BLOG FORM/icons/instagram.svg	/^  <path id="instagram" d="M472.981,29.078a.508.508,0,0,1-.511.511h-8.955a.508.508,0,0,1-.511-.51/;"	i
+instagram	TRIP ADVENTURES/icons/instagram.svg	/^  <path id="instagram" d="M472.981,29.078a.508.508,0,0,1-.511.511h-8.955a.508.508,0,0,1-.511-.51/;"	i
+iocn	BLOG FORM/icons/bag-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4615)">$/;"	i
+iocn	BLOG FORM/icons/clock-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4680)">$/;"	i
+iocn	BLOG FORM/icons/email.svg	/^  <g id="iocn" transform="translate(-475.001 -4615)">$/;"	i
+iocn	BLOG FORM/icons/phone-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4549)">$/;"	i
+iocn	TRIP ADVENTURES/icons/bag-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4615)">$/;"	i
+iocn	TRIP ADVENTURES/icons/clock-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4680)">$/;"	i
+iocn	TRIP ADVENTURES/icons/email.svg	/^  <g id="iocn" transform="translate(-475.001 -4615)">$/;"	i
+iocn	TRIP ADVENTURES/icons/phone-2.svg	/^  <g id="iocn" transform="translate(-475.001 -4549)">$/;"	i
+lname	Realtimeproject/templates/clientform.html	/^  <input type="text" id="lname" name="lname" placeholder="Days..."><br><br>$/;"	I
+lname	Realtimeproject/templates/clientform.html	/^  <input type="text" id="lname" name="lname" placeholder="price..."><br><br>$/;"	I
+lname	Realtimeproject/templates/clientform.html	/^  <textarea type="text" id="lname" name="lname" value="Detail..."><\/textarea><br><br>$/;"	I
+location	adventure_booking/client/models.py	/^    location = models.CharField(max_length=200,null=True)$/;"	v	class:ClientDetail
+login	Realtimeproject/templates/login.html	/^        <h1>login<\/h1>$/;"	h
+login	Realtimeproject/templates/userlogin.html	/^        <h1>login<\/h1>$/;"	h
+login_page	Realtimeproject/myapp/views.py	/^def login_page(request):$/;"	f
+login_page	adventure_booking/client/views.py	/^def login_page(request):$/;"	f
+login_page	adventure_booking/users/views.py	/^def login_page(request):$/;"	f
+logo	BLOG FORM/icons/logo.svg	/^  <g id="logo" transform="translate(-873 -73)">$/;"	i
+logo	TRIP ADVENTURES/icons/logo.svg	/^  <g id="logo" transform="translate(-873 -73)">$/;"	i
+logo-2	BLOG FORM/icons/logo.svg	/^    <image id="logo-2" data-name="logo" width="184" height="56" transform="translate(873 73)" xl/;"	i
+logo-2	TRIP ADVENTURES/icons/logo.svg	/^    <image id="logo-2" data-name="logo" width="184" height="56" transform="translate(873 73)" xl/;"	i
+logout_page	adventure_booking/client/views.py	/^def logout_page(request):$/;"	f
+logout_page	adventure_booking/users/views.py	/^def logout_page(request):$/;"	f
+main	adventure_booking/manage.py	/^def main():$/;"	f
+meta	adventure_booking/client/forms.py	/^    class meta:$/;"	c	class:ClientDetailForm
+model	adventure_booking/client/forms.py	/^        model = ClientDetail$/;"	v	class:ClientDetailForm.meta
+model	adventure_booking/client/forms.py	/^        model = User$/;"	v	class:CreateUserForm.Meta
+model	adventure_booking/users/forms.py	/^         model = UserBlog$/;"	v	class:BlogForm.Meta
+name	adventure_booking/client/apps.py	/^    name = 'client'$/;"	v	class:ClientConfig
+name	adventure_booking/client/models.py	/^    name = models.CharField(max_length=200,null=True)$/;"	v	class:ClientDetail
+name	adventure_booking/users/apps.py	/^    name = 'users'$/;"	v	class:UsersConfig
+no_of_person	adventure_booking/client/models.py	/^    no_of_person = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+normal-state	BLOG FORM/icons/location.svg	/^  <g id="normal-state" transform="translate(-1244 -4535)">$/;"	i
+normal-state	TRIP ADVENTURES/icons/location.svg	/^  <g id="normal-state" transform="translate(-1244 -4535)">$/;"	i
+ns0695e0020101	BLOG FORM/icons/transport.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+ns097f851b0101	BLOG FORM/icons/edit.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.936" height="11" viewBox="0 0 13.936 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns0a50205f0101	BLOG FORM/icons/bag.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+ns0a820e1d0101	BLOG FORM/icons/email.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns0f64798f0101	BLOG FORM/icons/hr.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns15679f060101	TRIP ADVENTURES/icons/bag-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns16241fd00101	TRIP ADVENTURES/icons/shadow-sm.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns168fb92d0101	TRIP ADVENTURES/icons/logo-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns1739271c0101	TRIP ADVENTURES/icons/next.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.492" height="11.132" viewBox="0 0 6.492 11./;"	n	uri:http://www.w3.org/2000/svg
+ns1879afae0101	TRIP ADVENTURES/icons/logo.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns1a9283a00101	BLOG FORM/icons/start-filled.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="14" height="13.264" viewBox="0 0 14 13.264">$/;"	n	uri:http://www.w3.org/2000/svg
+ns1c3c4b470101	TRIP ADVENTURES/icons/bag.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+ns249c97450101	BLOG FORM/icons/logo-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns25ae67c00101	BLOG FORM/icons/clock-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.003" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns318cfb760101	TRIP ADVENTURES/icons/location.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns343010ae0101	BLOG FORM/icons/phone-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns35d9ca430101	TRIP ADVENTURES/icons/instagram.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="12.867" height="12.867" viewBox="0 0 12.867 1/;"	n	uri:http://www.w3.org/2000/svg
+ns3b19c6660101	TRIP ADVENTURES/icons/cart-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns482493050101	TRIP ADVENTURES/icons/email.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns4926a47e0101	BLOG FORM/icons/cart-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns51156b2e0101	BLOG FORM/icons/cart-dark.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns5605c6a80101	TRIP ADVENTURES/icons/clock-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.003" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns58f10d030101	TRIP ADVENTURES/icons/edit.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.936" height="11" viewBox="0 0 13.936 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns5ce59d810101	BLOG FORM/icons/clock.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="25.711" height="25.711" viewBox="0 0 25.711 2/;"	n	uri:http://www.w3.org/2000/svg
+ns5d357af20101	TRIP ADVENTURES/icons/user-icon.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="11" height="12" viewBox="0 0 11 12">$/;"	n	uri:http://www.w3.org/2000/svg
+ns5d82e7770101	TRIP ADVENTURES/icons/hr.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns5eb250a80101	BLOG FORM/icons/twitter.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.202" height="10.723" viewBox="0 0 13.202 1/;"	n	uri:http://www.w3.org/2000/svg
+ns5f0b92bf0101	BLOG FORM/icons/cart.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+ns64876f960101	TRIP ADVENTURES/icons/phone-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+ns6782f49c0101	BLOG FORM/icons/pre.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.492" height="11.132" viewBox="0 0 6.492 11./;"	n	uri:http://www.w3.org/2000/svg
+ns6d914d1b0101	TRIP ADVENTURES/icons/star-grey.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="14" height="13.264" viewBox="0 0 14 13.264">$/;"	n	uri:http://www.w3.org/2000/svg
+ns727966e80101	BLOG FORM/icons/shadow-sm.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+ns796f1f840101	TRIP ADVENTURES/icons/pre.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.492" height="11.132" viewBox="0 0 6.492 11./;"	n	uri:http://www.w3.org/2000/svg
+ns7b6173880101	TRIP ADVENTURES/icons/start-filled.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="14" height="13.264" viewBox="0 0 14 13.264">$/;"	n	uri:http://www.w3.org/2000/svg
+ns8528bd330101	TRIP ADVENTURES/icons/search.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.939" height="13.939" viewBox="0 0 13.939 1/;"	n	uri:http://www.w3.org/2000/svg
+ns887b94ef0101	BLOG FORM/icons/facebook.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.434" height="13.806" viewBox="0 0 6.434 13./;"	n	uri:http://www.w3.org/2000/svg
+ns8f09af900101	TRIP ADVENTURES/icons/twitter.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.202" height="10.723" viewBox="0 0 13.202 1/;"	n	uri:http://www.w3.org/2000/svg
+ns922f115b0101	BLOG FORM/icons/instagram.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="12.867" height="12.867" viewBox="0 0 12.867 1/;"	n	uri:http://www.w3.org/2000/svg
+ns932785da0101	TRIP ADVENTURES/icons/google.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.939" height="13.939" viewBox="0 0 13.939 1/;"	n	uri:http://www.w3.org/2000/svg
+ns93359b4b0101	BLOG FORM/icons/search.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.939" height="13.939" viewBox="0 0 13.939 1/;"	n	uri:http://www.w3.org/2000/svg
+ns9a8822690101	TRIP ADVENTURES/icons/clock.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="25.711" height="25.711" viewBox="0 0 25.711 2/;"	n	uri:http://www.w3.org/2000/svg
+nsa13463f20101	BLOG FORM/icons/google.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13.939" height="13.939" viewBox="0 0 13.939 1/;"	n	uri:http://www.w3.org/2000/svg
+nsaa4098ea0101	TRIP ADVENTURES/icons/transport.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+nsae7d1aa70101	TRIP ADVENTURES/icons/cart.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+nsaf6c32ef0101	BLOG FORM/icons/phone.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="23.568" height="23.568" viewBox="0 0 23.568 2/;"	n	uri:http://www.w3.org/2000/svg
+nsb98ac20a0101	BLOG FORM/icons/user-icon.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="11" height="12" viewBox="0 0 11 12">$/;"	n	uri:http://www.w3.org/2000/svg
+nsc3bed0d70101	TRIP ADVENTURES/icons/facebook.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.434" height="13.806" viewBox="0 0 6.434 13./;"	n	uri:http://www.w3.org/2000/svg
+nsc7c79f340101	BLOG FORM/icons/next.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="6.492" height="11.132" viewBox="0 0 6.492 11./;"	n	uri:http://www.w3.org/2000/svg
+nsc90827c60101	BLOG FORM/icons/logo.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+nsc9e694330101	BLOG FORM/icons/star-grey.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="14" height="13.264" viewBox="0 0 14 13.264">$/;"	n	uri:http://www.w3.org/2000/svg
+nsc9fc14c30101	TRIP ADVENTURES/icons/shadow.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+nsd7c51a1e0101	BLOG FORM/icons/bag-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="34.003" height="34.004" viewBox="0 0 34.003 3/;"	n	uri:http://www.w3.org/2000/svg
+nsd808f2db0101	BLOG FORM/icons/shadow.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+nseaa934810101	BLOG FORM/icons/usd.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+nsed0eb7d70101	TRIP ADVENTURES/icons/phone.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="23.568" height="23.568" viewBox="0 0 23.568 2/;"	n	uri:http://www.w3.org/2000/svg
+nsf4c024160101	TRIP ADVENTURES/icons/cart-dark.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="13" height="11" viewBox="0 0 13 11">$/;"	n	uri:http://www.w3.org/2000/svg
+nsf649bf8e0101	BLOG FORM/icons/location.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/2000/svg
+nsfc955f690101	TRIP ADVENTURES/icons/usd.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" width="90.711" height="90.711" viewBox="0 0 90.711 9/;"	n	uri:http://www.w3.org/2000/svg
+operations	adventure_booking/client/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0002_clientoffer.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0003_remove_clientoffer_user_clientoffer_user.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0004_alter_clientoffer_user_clientbooking.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0005_alter_clientbooking_user_alter_clientoffer_user.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0006_alter_clientbooking_arrival_date.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/client/migrations/0007_rename_first_name_clientdetail_email_and_more.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/users/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/users/migrations/0002_alter_userblog_image_alter_userblog_slug.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/users/migrations/0003_alter_userblog_image.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/users/migrations/0004_alter_userblog_image.py	/^    operations = [$/;"	v	class:Migration
+operations	adventure_booking/users/migrations/0005_alter_userblog_image.py	/^    operations = [$/;"	v	class:Migration
+password_page	Realtimeproject/myapp/views.py	/^def password_page(request):$/;"	f
+phone_number	adventure_booking/client/models.py	/^    phone_number = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+phone_number	adventure_booking/client/models.py	/^    phone_number = models.CharField(max_length=200,null=True)$/;"	v	class:ClientDetail
+pname	Realtimeproject/templates/clientform.html	/^  <input type="text" id="pname" name="pname" placeholder="Name..."><br><br>$/;"	I
+price	adventure_booking/client/models.py	/^    price = models.CharField(max_length=200,null=True)$/;"	v	class:ClientOffer
+register_page	Realtimeproject/myapp/views.py	/^def register_page(request):$/;"	f
+register_page	adventure_booking/client/views.py	/^def register_page(request):$/;"	f
+register_page	adventure_booking/users/views.py	/^def register_page(request):$/;"	f
+search	BLOG FORM/icons/search.svg	/^  <path id="search" d="M500.686,24.1a3.753,3.753,0,1,1-3.753-3.753A3.758,3.758,0,0,1,500.686,24./;"	i
+search	TRIP ADVENTURES/icons/search.svg	/^  <path id="search" d="M500.686,24.1a3.753,3.753,0,1,1-3.753-3.753A3.758,3.758,0,0,1,500.686,24./;"	i
+section	TRIP ADVENTURES/style.css	/^section{$/;"	s
+shade	BLOG FORM/icons/location.svg	/^    <image id="shade" width="33" height="39" transform="translate(1250 4543)" xlink:href="data:i/;"	i
+shade	TRIP ADVENTURES/icons/location.svg	/^    <image id="shade" width="33" height="39" transform="translate(1250 4543)" xlink:href="data:i/;"	i
+shadow	BLOG FORM/icons/shadow-sm.svg	/^  <image id="shadow" width="350" height="49" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAAN/;"	i
+shadow	BLOG FORM/icons/shadow.svg	/^  <image id="shadow" width="1600" height="53" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAA/;"	i
+shadow	TRIP ADVENTURES/icons/shadow-sm.svg	/^  <image id="shadow" width="350" height="49" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAAN/;"	i
+shadow	TRIP ADVENTURES/icons/shadow.svg	/^  <image id="shadow" width="1600" height="53" xlink:href="data:image\/png;base64,iVBORw0KGgoAAAA/;"	i
+slug	adventure_booking/users/models.py	/^    slug = models.SlugField(max_length=1000,null=True)$/;"	v	class:UserBlog
+subject	Realtimeproject/templates/index.html	/^                 <select name="subject" id="subject">$/;"	I
+title	adventure_booking/users/models.py	/^    title = models.CharField(max_length=200,null=True)$/;"	v	class:UserBlog
+topic	Realtimeproject/templates/index.html	/^                  <select name="topic" id="topic">$/;"	I
+trip	adventure_booking/client/views.py	/^def trip(request,user=None,pk=None):$/;"	f
+trip_delete	adventure_booking/client/views.py	/^def trip_delete(request,user,pk):$/;"	f
+trip_desc	adventure_booking/client/models.py	/^    trip_desc = models.CharField(max_length=200,null=True)$/;"	v	class:ClientOffer
+trip_name	adventure_booking/client/models.py	/^    trip_name = models.CharField(max_length=200,null=True)$/;"	v	class:ClientOffer
+twitter	BLOG FORM/icons/twitter.svg	/^  <path id="twitter" d="M415.607,20.551a5.431,5.431,0,0,1-1.558.419,2.7,2.7,0,0,0,1.189-1.491,5./;"	i
+twitter	TRIP ADVENTURES/icons/twitter.svg	/^  <path id="twitter" d="M415.607,20.551a5.431,5.431,0,0,1-1.558.419,2.7,2.7,0,0,0,1.189-1.491,5./;"	i
+unauthenticated_user	adventure_booking/client/decorators.py	/^def unauthenticated_user(view_func):$/;"	f
+upload_to	adventure_booking/users/models.py	/^    upload_to = models.DateTimeField(auto_now=True)$/;"	v	class:UserBlog
+urlpatterns	Realtimeproject/Realtimeproject/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	adventure_booking/adventure_booking/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	adventure_booking/client/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	adventure_booking/users/urls.py	/^urlpatterns = [$/;"	v
+user	adventure_booking/client/models.py	/^    user = models.CharField(max_length=200,null=True)$/;"	v	class:ClientBooking
+user	adventure_booking/client/models.py	/^    user = models.CharField(max_length=200,null=True)$/;"	v	class:ClientOffer
+user	adventure_booking/client/models.py	/^    user = models.OneToOneField(User,null=True,on_delete=models.CASCADE)$/;"	v	class:ClientDetail
+user	adventure_booking/users/models.py	/^    user = models.CharField(max_length=200,null=True)$/;"	v	class:UserBlog
+user_home	adventure_booking/users/views.py	/^def user_home(request):$/;"	f
+userlogin_page	Realtimeproject/myapp/views.py	/^def userlogin_page(request):$/;"	f
+view_all_blog	adventure_booking/users/views.py	/^def view_all_blog(request):$/;"	f
+view_blog	adventure_booking/users/views.py	/^def view_blog(request):$/;"	f
+view_booking	adventure_booking/client/views.py	/^def view_booking(request):$/;"	f
+wrapper_func	adventure_booking/client/decorators.py	/^        def wrapper_func(request, *args , **kwargs):$/;"	f	function:allowed_users.decorator	file:
+wrapper_func	adventure_booking/client/decorators.py	/^    def wrapper_func(request, *args , **kwargs):$/;"	f	function:unauthenticated_user	file:
+xlink	BLOG FORM/icons/hr.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	BLOG FORM/icons/location.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	BLOG FORM/icons/logo-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	BLOG FORM/icons/logo.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	BLOG FORM/icons/shadow-sm.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	BLOG FORM/icons/shadow.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/hr.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/location.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/logo-2.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/logo.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/shadow-sm.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+xlink	TRIP ADVENTURES/icons/shadow.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" xmlns:xlink="http:\/\/www.w3.org\/1999\/xlink" width/;"	n	uri:http://www.w3.org/1999/xlink
+{{message}}	adventure_booking/templates/admin/register.html	/^		<h1>{{message}}<\/h1>$/;"	h
+{{message}}	adventure_booking/templates/clients/login.html	/^		<h1>{{message}}<\/h1>$/;"	h
+{{object.first_name}}	adventure_booking/templates/clients/ClientDetail.html	/^<h1>{{object.first_name}}<\/h1>$/;"	h

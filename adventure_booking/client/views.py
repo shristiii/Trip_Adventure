@@ -6,9 +6,12 @@ from django.contrib.auth import authenticate,login , logout
 from django.contrib.auth.decorators import login_required
 from .decorators import unauthenticated_user,allowed_users
 from .models import ClientDetail,ClientOffer,ClientBooking
+from .forms import OfferForm
+from django.core.files.storage import FileSystemStorage
 
 # Create your views here.
 #admin views
+
 def register_page(request):
     form = CreateUserForm()
     if request.method == 'POST':
@@ -54,11 +57,12 @@ def logout_page(request):
 @login_required(login_url='login')
 @allowed_users(allowed_roles=['client','admin'])
 def client_home(request):
-    val = ClientOffer.objects.filter(user=request.user).exists()
-    print(val)
-    if val == True:
-        objects = ClientOffer.objects.filter(user=request.user)
-        context = {'objects':objects}
+    val1 = ClientOffer.objects.filter(user=request.user).exists()
+    if val1 == True:
+        offer_objects = ClientOffer.objects.filter(user=request.user).order_by('-id')
+        context = {
+                   'offer_objects' : offer_objects
+                   }
     else:
         context = {}
     return render(request , "clients/home.html",context)
@@ -96,30 +100,48 @@ def Client_Detail(request):
 
 @login_required(login_url='login')
 @allowed_users(allowed_roles=['client','admin'])
-def trip(request,user=None,pk=None):
-    val = ClientOffer.objects.filter(user=request.user,id=pk).exists()
-    if val == True:
-        objects = ClientOffer.objects.filter(user=request.user,id=pk)
-        context = {'objects':objects}
-    else:
-        context = {}
+def offer_add(request):
+    context = {'form':OfferForm}
     if request.method == 'POST':
-        user = request.user
-        trip_name = request.POST["trip_name"]
-        trip_desc = request.POST["trip_desc"]
-        price = request.POST["price"]
-        if val == True:
-            ClientOffer.objects.filter(user=request.user,id=pk).update(trip_name=trip_name,trip_desc=trip_desc,price=price)
-        else:
-            add_offer = ClientOffer(user=user,trip_name=trip_name,trip_desc=trip_desc,price=price)
-            add_offer.save()
-    return render(request , "clients/trip.html",context)
+        user=request.user
+        trip_name=request.POST['trip_name']
+        trip_desc=request.POST['trip_desc']
+        duration=request.POST['duration']
+        price=request.POST['price']
+        image = request.FILES['image']
+        fs = FileSystemStorage()
+        filename = fs.save(image.name,image)
+        add_booking = ClientOffer(user=user,trip_name=trip_name,trip_desc=trip_desc,duration=duration,price=price,image=image)
+        add_booking.save()
+        return redirect('view_blog')
+    return render(request , "clients/clientOffer.html",context)
 
 @login_required(login_url='login')
 @allowed_users(allowed_roles=['client','admin'])
-def trip_delete(request,user,pk):
+def offer_edit(request,user=None,pk=None):
+    object1 = ClientOffer.objects.get(user=request.user,id=pk)
+    form = OfferForm(instance=object1)
+    if request.method == 'POST':
+        trip_name=request.POST['trip_name']
+        trip_desc=request.POST['trip_desc']
+        duration=request.POST['duration']
+        price=request.POST['price']
+        image = request.FILES['image']
+        fs = FileSystemStorage()
+        filename = fs.save(image.name,image)
+        update_offer = ClientOffer.objects.filter(user=user,pk=pk).update(user=user,trip_name=trip_name,trip_desc=trip_desc,duration=duration,price=price,image=image)
+        return redirect('client_home')
+    context = {'form':form}
+    return render(request , "clients/clientOffer.html",context)
+
+
+
+@login_required(login_url='login')
+@allowed_users(allowed_roles=['client','admin'])
+def offer_delete(request,user,pk):
     ClientOffer.objects.filter(user=request.user,id=pk).delete()
-    return redirect('home')
+    return redirect('client_home')
+
 
 
 
@@ -127,7 +149,7 @@ def trip_delete(request,user,pk):
 @login_required(login_url='login')
 @allowed_users(allowed_roles=['client','admin'])
 def view_booking(request):
-    objects = ClientBooking.objects.filter(user=request.user)
+    objects = ClientBooking.objects.filter(user=request.user).order_by('-id')
     context = {'objects':objects}
     return render(request , "clients/view_booking.html",context)
 
@@ -160,3 +182,11 @@ def booking_edit(request,user=None,pk=None):
 def booking_delete(request,user,pk):
     ClientOffer.objects.filter(user=request.user,id=pk).delete()
     return redirect('home')
+
+
+@login_required(login_url='login')
+@allowed_users(allowed_roles=['client','admin'])
+def more_detail(request,user=None,pk=None):
+    objects = ClientOffer.objects.filter(user=request.user,id=pk)
+    context={'objects':objects}
+    return render(request , "clients/more_detail.html",context)

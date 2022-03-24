@@ -1,8 +1,236 @@
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/f8f30a91d9.js" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'poppins', sans-serif;
+        box-sizing: border-box;
+      }
+      .header_fixed{
+          width:100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 4rem;
+          overflow: auto;
+      }
+         .header_fixed thead th{
+             position: sticky;
+             top:0;
+             background-color: black;
+             color: aliceblue;
+             font-size: 15px;
+             font-weight: 500;
+         }
+         tr:nth-child(odd){
+             background-color: #dddddd;
+         }
+         tr:nth-child(even){
+             background-color: #EDEEF1;
+         }
+      table{
+          border-collapse: collapse;
+      }
+      th,td{
+          border:1px solid #dddd;
+          padding: 10px 20px;
+          font-size: 14px;
+      }
+      tr:hover td{
+          color:#44b478;
+          cursor: pointer;
+          background-color: #ffffff;
+      }
+      .nav {
+        width: 100%;
+        background-color: #7799d4;
+        opacity: .8;
+      }
+
+      .nav img {
+        height: 5rem;
+        width: 8rem;
+        padding-left: 2rem;
+      }
+
+      .btn {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 100px;
+        width: 100px;
+        color: black;
+        text-align: right;
+        padding-right: 2rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        /* transition:right 0.4s ease; */
+      }
+
+      .btn.click {
+        right: 0px;
+        position: fixed;
+        z-index: 3;
+      }
+
+      .btn span {
+        color: black;
+        font-size: 28px;
+        line-height: 45px;
+      }
+
+      .btn.click span:before {
+        content: '\f00d';
+      }
+
+      .sidebar {
+        position: fixed;
+        width: 350px;
+        height: 100%;
+        right: -350px;
+        background: #7799d4;
+        bottom: 7rem;
+        top: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 2;
+        opacity:.9;
+        /* transition: right 0.4s ease; */
+      }
+
+      .sidebar.show {
+        right: 0px;
+      }
+
+      nav ul {
+        background: #7799d4;
+        width: 100%;
+        height: 50%;
+        list-style: none;
+        margin-top: 5rem;
+      }
+
+      nav ul li {
+        line-height: 60px;
+        border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+      }
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 95px;
+        font-weight: 400;
+        display: block;
+        line-height: 4rem;
+        width: 100%;
+        border-left: 3px solid transparent;
+      }
+      nav ul li a:hover {
+        color: rgb(38, 163, 163);
+        border-left-color: rgb(38, 163, 163);
+        border-left-width: 4px;
+      }
+      .img-container {
+      text-align: center;
+  margin: 24px 0 12px 0;
+    }
+    .img-container img{
+      border-radius: 50%;
+      width:40%;
+    }
+    td i{
+        padding: .5rem .5rem .5rem .5rem;
+    }
+    button{
+        background-color:transparent ;
+        border:1px solid black;
+        margin-left: .5rem;
+        border-radius: .5rem .5rem .5rem .5rem;
+    }
+    button:hover{
+        background-color:#000 ;
+        color: #FFF;
+    }
+     a {
+    text-decoration:none;
+      color:inherit;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+          <img class="logo" src="{% static 'images/trip.png'%}">
+        </div>
+        <div class="btn ">
+          <span class="fas fa-bars"></span>
+        </div>
+        <nav class="sidebar">
+          <div class="text">
+            <div class="img-container">
+              <img src="{% static 'images/loginimg.png' %}">
+                        {% if client_details != null%}
+{% for detail_object in client_details %}
+{% if request.user == detail_object.user%}
+          <h1>{{detail_object.company_name}}</h1>
+          <h4>{{detail_object.location}}</h4>
+{% endif %}
+{% endfor %}
+{% endif %}
+            </div>
+            <ul>
+          <li><a href="/client/client_home"><b>Dashboard</b></a></li>
+          <li><a href="/client/offer_add"><b>Add Offer</b></a></li>
+          <li><a href="/client/view_booking"><b>Booking</b></a></li>
+          <li><a href="#"><b>Change Password</b></a></li>
+          <li><a href="{% url 'logout' %}"><b>Logout</b></a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header_fixed">
+            <table>
+                <thead>
+                    <tr>
+                        <th>S No.</th>
+                        <th>Package Name</th>
+                        <th>No of people</th>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Mobile No.</th>
+                        <th>Arrival Date</th>
+                        <th>Departture Date</th>
+                        <th>Price</th>
+                        <th>Confirmance</th>
+                    </tr>
+                </thead>
+                <tbody>
 {% for object in objects%}
-{{object.full_name}}
-{{object.email}}
-{{object.phone_number}}
-{{object.arraival_date}}
-	<a href="">edit</a>
-	<a href="">delete</a><br>
+                    <tr>
+                      <td>{{object.id}}</td>
+                        <td>{{object.package_name}}</td>
+                        <td>{{object.no_of_person}}</td>
+                        <td>{{object.full_name}}</td>
+                        <td>{{object.email}}</td>
+                        <td>{{object.phone_number}}</td>
+                        <td>{{object.arraival_date}}</td>
+                        <td>{{object.departure_date}}</td>
+                        <td>{{object.price}}</td>
+                        <td><button><i class="fa fa-check"> </i></button> <button><i class="fa fa-times"> </i></button></td>
+                    </tr>
 {% endfor%}
+                                   </tbody>
+            </table>
+        </div>
+        </div>
+        <script>
+            $('.btn').click(function () {
+              $(this).toggleClass("click");
+              $('.sidebar').toggleClass("show");
+            });
+          </script>
+</body>
+</html>

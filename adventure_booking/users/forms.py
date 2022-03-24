@@ -6,4 +6,12 @@ from .models import UserBlog
 class BlogForm(ModelForm):
      class Meta:
          model = UserBlog
-         fields = "__all__"
+         fields = ['title','content','image',]
+         # fields = "__all__"
+         # widgets = {
+         #     'user': forms.TextInput(attrs={
+         #                 'class':'form-control',
+         #                 'placeholder':'Username',
+         #                'disabled',
+         #     }),
+         #     }

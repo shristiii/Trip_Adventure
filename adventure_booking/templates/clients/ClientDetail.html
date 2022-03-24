@@ -1,3 +1,6 @@
+{% extends 'static/main.html'%}
+{% block content %}
+{%load static%}
 {% if objects == null%}
 <form method="POST">
 {% csrf_token %}
@@ -22,3 +25,4 @@ first name:<input type="text" value="{{object.first_name}}" name="first_name"></
 </form>
 {% endfor%}
 {% endif %}
+{% endblock%}
