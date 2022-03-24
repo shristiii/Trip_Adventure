@@ -36,7 +36,7 @@ class ClientBooking(models.Model):
     arraival_date = models.DateField(null=True)
     departure_date = models.DateField(null=True)
     condition= [
-    ('confired', 'confirmed'),
+    ('confirmed', 'confirmed'),
     ('cancled', 'cancled'),
     ('null', 'null'),
     ]

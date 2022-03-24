@@ -1,6 +1,5 @@
 
-
-{% extends 'static/main.html'%}
+{% extends 'static/usermain.html'%}
 {% block content %}
 {%load static%}
 <head>
@@ -59,7 +58,6 @@
       top: 19px;
       left: -21px;
     }
-
     .cart-detail {
       margin-bottom:3rem;
       display: flex;
@@ -95,7 +93,7 @@
       font-family: 'poppins', sans-serif;
       margin-top: 1rem;
       padding:2px;
-      margin-left:3rem;
+      margin-left:2rem;
       padding: .8rem .5rem .8rem .5rem;
       background: #79A70A;
       border-radius: 1rem 1rem 1rem 1rem;
@@ -128,8 +126,8 @@
   font-size: 80px;
     }
 .search{
-	position:relative;
-	top:100px;
+	position:absolute;
+	margin-top:100px;
 	left:100px;
 	align:center;
 }
@@ -137,7 +135,9 @@
 </head>
 
 <body>
-	<form method="get" enctype="multipart/form-data" action='/client/client_search'>
+</br>
+<div class="search">
+	<form method="get" enctype="multipart/form-data" action='/user/offer_search'>
 <div class="input-group">
   <div class="form-outline">
     <input type="search" id="query" name="query" class="form-control" />
@@ -146,36 +146,36 @@
     <i class="fas fa-search"></i>
   </button>
 </form>
-</br>
-{% if offer_objects != null%}
-{% for offer_object in offer_objects%}
+</div>
+{% if offers != null%}
+{% for offer in offers%}
     <div class="cart-detail">
       <div class="cart">
-        <img src="/media/{{offer_object.image}}">
+        <img src="/media/{{offer.image}}">
         <div class="detail">
           <div class="price-detail">
             <p>Price:</p>
-            <h3>{{offer_object.price}}</h3>
+            <h3>{{offer.price}}</h3>
           </div>
           <div class="duration">
             <p>Duration</p>
-            <h4>{{offer_object.duration}} Days</h4>
+            <h4>{{offer.duration}} Days</h4>
           </div>
         </div>
               </div>
               <div>
       <div class="description">
-        <h2>{{offer_object.trip_name}}</h2>
+        <h2>{{offer.trip_name}}</h2>
         <p>		{% autoescape off %}
-{{offer_object.trip_desc}}</p>
+{{offer.trip_desc}}</p>
 {% endautoescape %}
       </div>
-<button><a href="/client/more_detail/{{offer_object.user}}/{{offer_object.id}}">More Details</a></button>
+<button><a href="/user/more_detail/{{offer.user}}/{{offer.id}}">More Details</a></button>
+<button><a href="/user/booking/{{offer.user}}/{{offer.id}}">  Book  </a></button>
       </div>
       </div>
 {% endfor %}
 {% endif %}
  </body>
 
-</html>
 {% endblock%}

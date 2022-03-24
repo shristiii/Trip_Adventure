@@ -146,3 +146,40 @@ def more_detail(request,user=None,pk=None):
     objects = ClientOffer.objects.filter(user=user,id=pk)
     context={'objects':objects}
     return render(request , "users/more_detail.html",context)
+
+
+
+def offer_search(request):
+    offers = ClientOffer.objects.all()
+    query = request.GET['query']
+    offers = offers.filter(trip_name__icontains=query)
+    print(offers)
+    context = {
+            'offers': offers
+            }
+    return render(request,"users/offer_search.html", context)
+
+
+
+def blog_search(request):
+    offers = UserBlog.objects.all()
+    query = request.GET['query']
+    objects = offers.filter(title__icontains=query)
+    print(offers)
+    context = {
+            'objects': objects
+            }
+    return render(request,"users/blog_search.html", context)
+
+
+
+@login_required(login_url='login')
+@allowed_users(allowed_roles=['user','admin'])
+def self_blog_search(request):
+    offers = UserBlog.objects.filter(user=request.user)
+    query = request.GET['query']
+    objects = offers.filter(title__icontains=query)
+    context = {
+            'objects': objects
+            }
+    return render(request,"users/self_blog_search.html", context)

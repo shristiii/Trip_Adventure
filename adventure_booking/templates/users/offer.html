@@ -124,11 +124,28 @@
   color:white;
   font-size: 80px;
     }
+.search{
+  position:relative;
+	margin-top:100px;
+	left:100px;
+	align:center;
+}
   </style>
 </head>
 
 <body>
 </br>
+<div class="search">
+	<form method="get" enctype="multipart/form-data" action='/user/offer_search'>
+<div class="input-group">
+  <div class="form-outline">
+    <input type="search" id="query" name="query" class="form-control" />
+  </div>
+  <button type="submit">Search
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+</div>
 {% if objects != null%}
 {% for object in objects%}
     <div class="cart-detail">

@@ -16,5 +16,8 @@ urlpatterns = [
     path('more_detail/<str:user>/<str:pk>/', views.more_detail, name='more_detail'),
     path('blog_add/', views.blog_add, name='blog_add'),
     path('all_blog/', views.view_all_blog, name='view_all_blog'),
+    path('offer_search/', views.offer_search, name='offer_search'),
+    path('blog_search/', views.blog_search, name='blog_search'),
+    path('self_blog_search/', views.self_blog_search, name='self_blog_search'),
     # path('accounts/', include('allauth.urls')),
 ]

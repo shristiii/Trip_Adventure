@@ -203,7 +203,7 @@
                         <th>Mobile No.</th>
                         <th>Arrival Date</th>
                         <th>Departture Date</th>
-                        <th>Price</th>
+                        <th>status</th>
                         <th>Confirmance</th>
                     </tr>
                 </thead>
@@ -218,8 +218,14 @@
                         <td>{{object.phone_number}}</td>
                         <td>{{object.arraival_date}}</td>
                         <td>{{object.departure_date}}</td>
-                        <td>{{object.price}}</td>
-                        <td><button><i class="fa fa-check"> </i></button> <button><i class="fa fa-times"> </i></button></td>
+                        {% if object.confirmance == 'null'%}
+                        <td></td>
+                        {% else %}
+                        <td>{{object.confirmance}}</td>
+                        {% endif%}
+                        <td><button><a href="/client/booking_confirmed/{{object.user}}/{{object.id}}"><i class="fa fa-check"> </i></a></button>
+
+                        <button><a href="/client/booking_cancled/{{object.user}}/{{object.id}}"><i class="fa fa-times"> </i></a></button></td>
                     </tr>
 {% endfor%}
                                    </tbody>

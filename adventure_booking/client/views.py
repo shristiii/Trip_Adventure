@@ -190,3 +190,32 @@ def more_detail(request,user=None,pk=None):
     objects = ClientOffer.objects.filter(user=request.user,id=pk)
     context={'objects':objects}
     return render(request , "clients/more_detail.html",context)
+
+
+
+@login_required(login_url='login')
+@allowed_users(allowed_roles=['client','admin'])
+def booking_confirmed(request,user,pk):
+    ClientBooking.objects.filter(user=request.user,id=pk).update(confirmance="confirmed")
+    return redirect('view_booking')
+
+
+
+@login_required(login_url='login')
+@allowed_users(allowed_roles=['client','admin'])
+def booking_cancled(request,user,pk):
+    ClientBooking.objects.filter(user=request.user,id=pk).update(confirmance="cancled")
+    return redirect('view_booking')
+
+
+@login_required(login_url='loginPage')
+@allowed_users(allowed_roles=['client','admin'])
+def client_search(request):
+    offers = ClientOffer.objects.filter(user=request.user)
+    query = request.GET['query']
+    offers = offers.filter(trip_name__icontains=query)
+    print(offers)
+    context = {
+            'offers': offers
+            }
+    return render(request,"clients/search.html", context)
