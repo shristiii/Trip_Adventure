@@ -5,6 +5,7 @@
 {%load static%}
 <head>
   <style>
+  
     .cart {
       margin: 5rem 0rem 0rem 8rem;
       width: 28rem;
@@ -127,6 +128,19 @@
   color:white;
   font-size: 80px;
     }
+    .package{
+      margin-top: -6.5rem;
+    }
+    .package img{
+      height:90vh;
+      width:100%;
+    }
+    .package h1{
+      margin:-8rem 4rem 8rem 4rem;
+      font-size: 5rem;
+      color:whitesmoke;
+      font-weight: 400;
+    }
   </style>
 </head>
 
@@ -134,6 +148,10 @@
 </br>
 {% if offer_objects != null%}
 {% for offer_object in offer_objects%}
+<div class="package">
+  <img src="{% static 'images/Scene.jpg'%}">
+  <h1>Packages</h1>
+</div>
     <div class="cart-detail">
       <div class="cart">
         <img src="/media/{{offer_object.image}}">
